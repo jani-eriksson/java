@@ -1,9 +1,10 @@
+import java.util.Scanner;
+
 class QuickStart {
     public static void main(String[] args) {
-        System.out.println("To whom it may concern");
-        System.out.println("    -   ");
-        System.out.println("Writing in Java");
-        System.out.println("    -   ");
-        System.out.println("By Jani");
+        Scanner lukija = new Scanner(System.in);
+        System.out.println("Write a value.");
+        int arvo = Integer.valueOf(lukija.nextLine());
+        System.out.println("Your input was: " + arvo);
     }
 }
