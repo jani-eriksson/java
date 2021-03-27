@@ -14,6 +14,7 @@ public class ScannerLoopPrint {
         }
         System.out.println("Sum of values is: " + summa);
         System.out.println("");
+        lukija.close();
     
     }
 }

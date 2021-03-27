@@ -6,5 +6,6 @@ class QuickStart {
         System.out.println("Write a value.");
         int arvo = Integer.valueOf(lukija.nextLine());
         System.out.println("Your input was: " + arvo);
+        lukija.close();
     }
 }
