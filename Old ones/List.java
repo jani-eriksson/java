@@ -18,5 +18,7 @@ public class List {
         System.out.println("Syötä myös luku välillä 0-1");
         int luku = Integer.valueOf(lukija.nextLine());
         System.out.println("Syötit luvun: " + luku);
+
+        lukija.close();
     }
 }
